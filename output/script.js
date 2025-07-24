@@ -9,3 +9,7 @@
 // playerName ="masrafi"
 // playerName =34
 // console.log(playerName)
+// function multifly(a:number,b:number){
+//     return a*b;
+// }
+// console.log(multifly("shahadat",4))
