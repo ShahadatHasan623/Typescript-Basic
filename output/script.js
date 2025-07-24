@@ -25,7 +25,25 @@
 //     isCaptain:true
 // }
 // person.country ="Bangladesh"
-let a;
+// explicit and union type
+// let a:string;
+// let b:number;
+// a ="shahadat"
+// b= "45"
+// normal variable 
 let b;
-a = "shahadat";
-b = "45";
+// array 
+let a = [];
+b = "shahadat";
+a.push('shahadat', 4, false);
+//object 
+let c = {
+    name: string,
+    age: number,
+    adult: boolean
+};
+c = {
+    name: "shahadat",
+    age: 34,
+    adult: true
+};

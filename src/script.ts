@@ -37,8 +37,31 @@
 
 // person.country ="Bangladesh"
 
-let a:string;
-let b:number;
+// explicit and union type
+// let a:string;
+// let b:number;
 
-a ="shahadat"
-b= "45"
+// a ="shahadat"
+// b= "45"
+
+// normal variable 
+let b:string | number;
+// array 
+let a:(string | number )[]=[];
+
+b="shahadat"
+a.push('shahadat',4,false)
+
+//object 
+let c ={
+    name: string,
+    age: number,
+    adult: boolean
+};
+
+c={
+    name:"shahadat",
+    age:34,
+    adult:true
+}
+
