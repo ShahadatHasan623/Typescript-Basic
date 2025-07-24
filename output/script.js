@@ -14,8 +14,18 @@
 // }
 // console.log(multifly("shahadat",4))
 //array
-let fruits = ["banana", "apple", "watermelon", "mango", true, 34, {}];
-fruits.push({
-    name: "shahadat"
-});
-console.log(fruits);
+// let fruits =["banana","apple","watermelon","mango",true,34,{}]
+// fruits.push({
+//     name:"shahadat"
+// })
+// console.log(fruits)
+// let person ={
+//     name:"shahadat",
+//     age:35,
+//     isCaptain:true
+// }
+// person.country ="Bangladesh"
+let a;
+let b;
+a = "shahadat";
+b = "45";

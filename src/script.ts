@@ -21,10 +21,24 @@
 
 //array
 
-let fruits =["banana","apple","watermelon","mango",true,34,{}]
+// let fruits =["banana","apple","watermelon","mango",true,34,{}]
 
-fruits.push({
-    name:"shahadat"
-})
+// fruits.push({
+//     name:"shahadat"
+// })
 
-console.log(fruits)
+// console.log(fruits)
+
+// let person ={
+//     name:"shahadat",
+//     age:35,
+//     isCaptain:true
+// }
+
+// person.country ="Bangladesh"
+
+let a:string;
+let b:number;
+
+a ="shahadat"
+b= "45"
