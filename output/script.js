@@ -13,3 +13,9 @@
 //     return a*b;
 // }
 // console.log(multifly("shahadat",4))
+//array
+let fruits = ["banana", "apple", "watermelon", "mango", true, 34, {}];
+fruits.push({
+    name: "shahadat"
+});
+console.log(fruits);
