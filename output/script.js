@@ -30,12 +30,25 @@
 // let b:number;
 // a ="shahadat"
 // b= "45"
-// normal variable 
-let b;
-// array 
+// // normal variable 
+// let b:string | number;
+// // array 
+// let a:(string | number )[]=[];
+// b="shahadat"
+// a.push('shahadat',4,false)
+// //object 
+// let c:{
+//     name: string,
+//     age: number,
+//     adult: boolean
+// };
+// c=[]
 let a = [];
-b = "shahadat";
-a.push('shahadat', 4, false);
+a.push("Bangladesh");
+a.push(34);
 //object 
-let c;
-c = [];
+let b;
+b = {
+    name: "bangladesh",
+    age: 10
+};

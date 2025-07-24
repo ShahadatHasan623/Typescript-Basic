@@ -44,20 +44,38 @@
 // a ="shahadat"
 // b= "45"
 
-// normal variable 
-let b:string | number;
-// array 
-let a:(string | number )[]=[];
+// // normal variable 
+// let b:string | number;
+// // array 
+// let a:(string | number )[]=[];
 
-b="shahadat"
-a.push('shahadat',4,false)
+// b="shahadat"
+// a.push('shahadat',4,false)
+
+// //object 
+// let c:{
+//     name: string,
+//     age: number,
+//     adult: boolean
+// };
+
+// c=[]
+
+
+let a : any [] = [];
+
+a.push("Bangladesh")
+a.push(34)
 
 //object 
-let c:{
-    name: string,
-    age: number,
-    adult: boolean
-};
 
-c=[]
+let b:{
+    name :any,
+    age:any
+}
+
+b={
+    name:"bangladesh",
+    age:10
+}
 
