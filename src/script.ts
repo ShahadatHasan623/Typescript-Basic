@@ -53,15 +53,11 @@ b="shahadat"
 a.push('shahadat',4,false)
 
 //object 
-let c ={
+let c:{
     name: string,
     age: number,
     adult: boolean
 };
 
-c={
-    name:"shahadat",
-    age:34,
-    adult:true
-}
+c=[]
 

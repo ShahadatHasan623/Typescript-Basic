@@ -37,13 +37,5 @@ let a = [];
 b = "shahadat";
 a.push('shahadat', 4, false);
 //object 
-let c = {
-    name: string,
-    age: number,
-    adult: boolean
-};
-c = {
-    name: "shahadat",
-    age: 34,
-    adult: true
-};
+let c;
+c = [];
