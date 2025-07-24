@@ -43,12 +43,21 @@
 //     adult: boolean
 // };
 // c=[]
-let a = [];
-a.push("Bangladesh");
-a.push(34);
-//object 
-let b;
-b = {
-    name: "bangladesh",
-    age: 10
+// dynamic type 
+// let a : any [] = [];
+// a.push("Bangladesh")
+// a.push(34)
+// //object 
+// let b:{
+//     name :any,
+//     age:any
+// }
+// b={
+//     name:"bangladesh",
+//     age:10
+// }
+// function type 
+const myFun = (a, b, c = "true") => {
+    return a + b;
 };
+myFun("A", "B", "false");

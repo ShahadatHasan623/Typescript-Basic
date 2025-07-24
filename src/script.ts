@@ -62,20 +62,29 @@
 // c=[]
 
 
-let a : any [] = [];
+// dynamic type 
 
-a.push("Bangladesh")
-a.push(34)
+// let a : any [] = [];
 
-//object 
+// a.push("Bangladesh")
+// a.push(34)
 
-let b:{
-    name :any,
-    age:any
+// //object 
+
+// let b:{
+//     name :any,
+//     age:any
+// }
+
+// b={
+//     name:"bangladesh",
+//     age:10
+// }
+
+
+// function type 
+const myFun =(a:string, b:string,c:string="true")=>{
+    return a+b;
+
 }
-
-b={
-    name:"bangladesh",
-    age:10
-}
-
+myFun("A","B","false")
